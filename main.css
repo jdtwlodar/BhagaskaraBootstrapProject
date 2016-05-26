@@ -1,0 +1,65 @@
+body{
+    color: white;
+}
+
+.cityview{
+    background: url("Bhagaskara-assets/obrazektoptop.png") no-repeat center fixed;
+    background-size: cover;
+    -web-kit-background-size: cover;
+    width: 100%;
+}
+.title{
+    font-size: 90px;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.titleend{
+    color: #9f449b
+}
+
+.s1{
+    font-size: 48px;
+    text-align: center;
+}
+.s2{
+    font-size: 24px;
+    text-align: center;
+    padding: 60px;
+}
+.gif{
+    width: 167px ;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.services{
+    background: url("Bhagaskara-assets/3.png");
+}
+.portfolio{
+    background: url("Bhagaskara-assets/4.png");
+}
+.about{
+    background: url("Bhagaskara-assets/1.png");
+}
+.team{
+    background: url("Bhagaskara-assets/2.png");
+}
+.blog{
+    background: url("Bhagaskara-assets/5.png");
+}
+.contact{
+    background: url("Bhagaskara-assets/6.png");
+}
+.scroll{
+    background: url("Bhagaskara-assets/scroller.png");
+    width: 86px ;
+    height: 93px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paddingrow{
+    padding-bottom: 60px;
+}
+
+
