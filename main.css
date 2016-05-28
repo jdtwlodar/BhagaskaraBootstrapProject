@@ -37,8 +37,6 @@ body{
     height: 181px;
     margin: auto;
     margin-bottom: 20px;
-
-
 }
 
 .services{
@@ -85,9 +83,43 @@ a{
     color: #676767;
     font-size: 16px;
 }
+/*-----------------------------------------section3---------------------------------------------------------------------------*/
+.section3{
+    background-color: #eeeeee;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #676767;
+    text-align: center;
+}
+.gif2{
+    width: 172px ;
+    height: 186px;
+    margin: auto;
+}
 
+.heart{
+    background: url("Bhagaskara-assets/22.png")
+}
 
+.crystal{
+    background: url("Bhagaskara-assets/22.png")
+}
 
+.cup{
+    background: url("Bhagaskara-assets/33.png")
+}
+.phone{
+    background: url("Bhagaskara-assets/44.png")
+}
+
+.headerSection3{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pSection3{
+    font-size: 12px;
+}
 
 
 
@@ -136,5 +168,17 @@ a{
 @media  (max-width: 992px){
     .titlemiddle{
         text-align: center;
+    }
+    .psection3{
+        margin-bottom: 20px;
+
+    }
+    .headerSection3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .section3{
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
