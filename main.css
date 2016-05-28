@@ -22,19 +22,25 @@ body{
     font-size: 48px;
     text-align: center;
 }
+
+
 .s2{
     font-size: 24px;
     text-align: center;
     padding: 60px;
 }
 .gif{
-    width: 167px ;
+    width: 165px ;
     height: 181px;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 20px;
+
+
 }
 
 .services{
     background: url("Bhagaskara-assets/3.png");
+
 }
 .portfolio{
     background: url("Bhagaskara-assets/4.png");
