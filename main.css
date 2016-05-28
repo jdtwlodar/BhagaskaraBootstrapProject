@@ -72,6 +72,47 @@ body{
 }
 
 
+/*-----------------------------------------section2---------------------------------------------------------------------------*/
+.section2{
+    padding: 60px;
+}
+.titlemiddle{
+    color: #676767;
+    font-size: 30px;
+}
+
+a{
+    color: #676767;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------@media-------------------------------------------------------------*/
+
+
 @media  (max-width: 600px){
     .title{
         font-size: 4em;
@@ -82,5 +123,18 @@ body{
     .s2{
         font-size: 1.5em;
         padding: 10%;
+    }
+
+}
+@media  (max-width: 768px){
+
+    .section2{
+        text-align: center;
+    }
+}
+
+@media  (max-width: 992px){
+    .titlemiddle{
+        text-align: center;
     }
 }
