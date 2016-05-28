@@ -8,12 +8,15 @@ body{
     -web-kit-background-size: cover;
     width: 100%;
 }
+
 .title{
     font-size: 90px;
     color: white;
     padding-bottom: 20px;
     text-align: center;
 }
+
+
 .titleend{
     color: #9f449b
 }
@@ -69,3 +72,15 @@ body{
 }
 
 
+@media  (max-width: 600px){
+    .title{
+        font-size: 4em;
+    }
+    .s1{
+        font-size: 2em;
+    }
+    .s2{
+        font-size: 1.5em;
+        padding: 10%;
+    }
+}
