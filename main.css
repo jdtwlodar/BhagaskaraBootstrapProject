@@ -18,7 +18,7 @@ body{
 
 
 .titleend{
-    color: #9f449b
+    color: #9f449b;
 }
 
 .s1{
@@ -122,9 +122,53 @@ a{
 }
 
 
+/*----------------------------------------------section4---------------------------------------------*/
 
+.section4{
+    color: #676767;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.titleabout{
+    font-size: 35px;
+    text-align: center;
+}
+.corner{
+    background: url("Bhagaskara-assets/rogdown.png");
+    width: 29px;
+    height: 29px;
+    text-align: left;
 
+}
+.cornerdown{
+    background: url("Bhagaskara-assets/rogd.png");
+    width: 29px;
+    height: 29px;
+    text-align: left;
+
+}
+.tv{
+    background: url("Bhagaskara-assets/mockup.png");
+    width: 653px;
+    height: 415px;
+    margin-top: 135px;
+}
+.psection4{
+    margin-top: 135px;
+    font-size: 15px;
+    line-height: 40px;
+    margin-bottom: 80px;
+}
+button{
+    color: white;
+    background-color: #9f449b;
+    font-size: 20px;
+    padding: 20px;
+    width: 50%;
+    border-radius: 4%;
+    border-shadow: 1px 3px 2px #000000;
+}
 
 
 
@@ -144,26 +188,17 @@ a{
 
 /*----------------------------------------------------@media-------------------------------------------------------------*/
 
-
-@media  (max-width: 600px){
-    .title{
-        font-size: 4em;
-    }
-    .s1{
-        font-size: 2em;
-    }
-    .s2{
-        font-size: 1.5em;
-        padding: 10%;
-    }
-
-}
-@media  (max-width: 768px){
-
-    .section2{
-        text-align: center;
+@media  (max-width: 1200px){
+    .tv{
+        background: url("Bhagaskara-assets/mockuptablet.png");
+        width: 522px;
+        height: 332px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
+
+
 
 @media  (max-width: 992px){
     .titlemiddle{
@@ -180,5 +215,49 @@ a{
     .section3{
         padding-top: 50px;
         padding-bottom: 50px;
+
     }
+    .tv{
+        background: url("Bhagaskara-assets/mockupmini.png");
+        width: 326px;
+        height: 207px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .psection4{
+        line-height: 20px;
+        margin-bottom: 40px;
+        margin-top: 135px;
+    }
+    button{
+        width: 100%;
+    }
+}
+@media  (max-width: 768px){
+
+    .section2{
+        text-align: center;
+    }
+    .tv, .psection4{
+        margin-top: 50px;
+    }
+
+}
+@media  (max-width: 600px){
+    .title{
+        font-size: 4em;
+    }
+    .s1{
+        font-size: 2em;
+    }
+    .s2{
+        font-size: 1.5em;
+        padding: 10%;
+    }
+    .section4{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
 }
