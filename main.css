@@ -167,7 +167,23 @@ button{
     padding: 20px;
     width: 50%;
     border-radius: 4%;
-    border-shadow: 1px 3px 2px #000000;
+    box-shadow: 1px 3px 2px #000000;
+}
+
+/*------------------------section5------------------------------------------------*/
+
+.section5{
+    background: url("Bhagaskara-assets/tlo2.png") no-repeat center fixed;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+.edu{
+    background: url("Bhagaskara-assets/icon.png");
+}
+.pad{
+    padding-top: 20px;
 }
 
 
@@ -184,9 +200,12 @@ button{
 
 
 
-
-
 /*----------------------------------------------------@media-------------------------------------------------------------*/
+@media  (min-width: 1201px){
+    .psection4{
+        margin-bottom: 130px;
+    }
+}
 
 @media  (max-width: 1200px){
     .tv{
@@ -195,6 +214,10 @@ button{
         height: 332px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .psection4{
+        margin-bottom: 15px;
+
     }
 }
 
