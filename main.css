@@ -292,6 +292,11 @@ button{
     float: right;
 }
 
+.section7 p {
+    font-size: 18px;
+
+}
+
 
 /*-----------------------section9-------------------------------------------------*/
 .section9{
@@ -335,8 +340,39 @@ button{
     height: 30px;
 }
 
+/*-------------------------------------------section10-------------------------------------------*/
 
+.section10{
+    padding: 100px 0;
+}
+.tags{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 1px;
+}
+.tags ul{
+    padding: 50px 0;
+    height: 38px;
+}
+.tags li{
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    width: 70px;
+    height: 30px;
+    padding: 3px 10px;
+    font-size: 16px;
 
+}
+
+.tags li:hover{
+    background-color: #9f449b;
+    border: 1px solid #9f449b;
+    color: white;
+}
 
 
 
@@ -416,6 +452,17 @@ button{
         padding-right: 0;
 
     }
+    .tags div{
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+
+    .tags li{
+        height: auto;
+        padding: 15px 0;
+        width: 100%;
+    }
 
 }
 @media  (max-width: 768px){
@@ -426,6 +473,7 @@ button{
     .tv, .psection4{
         margin-top: 50px;
     }
+
 
 }
 @media  (max-width: 600px){
@@ -443,6 +491,10 @@ button{
         padding-top: 50px;
         padding-bottom: 50px;
 
+    }
+    .tags div,
+    .tags li{
+        width: 100%;
     }
 
 }
