@@ -39,7 +39,7 @@ body{
     margin-bottom: 20px;
 }
 
-.gif:hover, .gif2:hover{
+.gif:hover, .gif2:hover, .touch img:hover{
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -345,6 +345,7 @@ button{
 .section10{
     padding: 100px 0;
 }
+
 .tags{
     text-align: center;
     margin-right: auto;
@@ -375,6 +376,40 @@ button{
 }
 
 
+.portfoiloTag{
+    color: #676767;
+    text-align: center;
+}
+.portfolio-item h3,.portfolio-item a{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+}
+/*--------------------------------section11---------------------------------------*/
+/*-------------------------------------form-------------------------------------*/
+
+.btn-prim{
+    color: white;
+    background-color: #9f449b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+#exampleInputName, #exampleInputEmail1{
+    height: 50px;
+}
+.section11{
+    color: black;
+}
+.touch {
+    margin: 50px 0;
+}
+.touch  img{
+    margin: 0 10px;
+}
 
 
 
@@ -452,6 +487,8 @@ button{
         padding-right: 0;
 
     }
+
+
     .tags div{
         width: 50%;
         margin-bottom: 30px;
@@ -463,6 +500,17 @@ button{
         padding: 15px 0;
         width: 100%;
     }
+    .portfolio-item img{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .touch {
+        text-align: center;
+    }
+    .touch img{
+        margin: 0 50px;
+    }
+
 
 }
 @media  (max-width: 768px){
@@ -473,7 +521,6 @@ button{
     .tv, .psection4{
         margin-top: 50px;
     }
-
 
 }
 @media  (max-width: 600px){
