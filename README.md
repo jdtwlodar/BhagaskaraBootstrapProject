@@ -1,1 +1,1 @@
-"Bhaskara" is responsive web page, created using bootstrap.
+"Bhaskara" is responsive webpage, created using bootstrap and Javascript.
