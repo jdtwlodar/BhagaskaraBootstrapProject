@@ -96,9 +96,9 @@ document.addEventListener('DOMContentLoaded', function(){
     });
 
     /*galeria w budowie */
-    /*var tag= document.querySelectorAll('.portfoiloTag');
+    var tag= document.querySelectorAll('.portfoiloTag');
     console.log(tag[0].innerHTML)
-    var tab=(tag[0].innerHTML).split();
+    var tab=(tag[0].alt).split();
     console.log(tab);
     var tagbuttons=document.querySelectorAll('.tagbutton');
     console.log(tagbuttons);
@@ -107,7 +107,10 @@ document.addEventListener('DOMContentLoaded', function(){
     console.log(iconsbutton);
 
     var portfolioitem= document.querySelectorAll('.portfolio-item');
-    console.log(tag[0].parentElement);
+    console.log(tag[0].parentElement.parentElement);
+
+    var portfolioitem= document.querySelectorAll('.portfolio-item');
+
 
 
         for(var i = 0; i<tagbuttons.length; i++){
@@ -116,61 +119,46 @@ document.addEventListener('DOMContentLoaded', function(){
                     if((this.innerHTML).indexOf('ICON') !== -1){
                             console.log("jest super")
                             for (var j = 0; j < tag.length; j++) {
-                                   /!* if ((tag[j].innerHTML).indexOf('icon') !== -1) {
-                                        tag[j].parentElement.parentElement.style.marginRight = 'auto';
-                                        tag[j].parentElement.parentElement.style.marginLeft = 'auto';
-                                        /!*tag[j].parentElement.parentElement.removeAttribute('class', 'col-md-4')*!/
-                                       /!* tag[j].parentElement.parentElement.classList.toggle('col-md-4');
-                                        tag[j].parentElement.parentElement.classList.toggle('visible');*!/
+                                if ((tag[j].alt).indexOf('icon') !== -1) {
 
-                                    }*!/
-                                    if ((tag[j].innerHTML).indexOf('icon') === -1) {
-                                       /!* tag[j].parentElement.style.display = 'none'*!/
-                                        tag[j].parentElement.classList.toggle('invisible');
-                                        /!*tag[j].parentElement.classList.toggle('invisible');*!/
+                                    tag[j].parentElement.parentElement.style.visibility = 'visible';
+                                    }
+                                    if ((tag[j].alt).indexOf('icon') === -1) {
+                                        tag[j].parentElement.parentElement.style.visibility = 'hidden';
                                     }
                             }
                     }
                     if((this.innerHTML).indexOf('APPS') !== -1){
-                        console.log("jest ")
+                        console.log("jest super")
                         for (var j = 0; j < tag.length; j++) {
-                           /!* if ((tag[j].innerHTML).indexOf('apps') !== -1) {
-                                tag[j].parentElement.parentElement.style.marginRight = 'auto';
-                                tag[j].parentElement.parentElement.style.marginLeft = 'auto';
-                              /!*  tag[j].parentElement.parentElement.removeAttribute('class', 'col-md-4');*!/
-                               /!* tag[j].parentElement.parentElement.classList.toggle('col-md-4');
-                                tag[j].parentElement.parentElement.classList.toggle('visible');*!/
-
-                            }*!/
-                            if ((tag[j].innerHTML).indexOf('apps') === -1) {
-                              /!*  tag[j].parentElement.style.display = 'none';
-                                tag[j].parentElement.classList.toggle('portfolio-item');*!/
-                                tag[j].parentElement.classList.toggle('invisible');
-
+                            if ((tag[j].alt).indexOf('apps') !== -1) {
+                                tag[j].parentElement.parentElement.style.visibility = 'visible';
+                            }
+                            if ((tag[j].alt).indexOf('apps') === -1) {
+                                tag[j].parentElement.parentElement.style.visibility = 'hidden';
                             }
                         }
                     }
                     if((this.innerHTML).indexOf('WEB') !== -1){
-                        console.log("jest ")
+                        console.log("jest super")
                         for (var j = 0; j < tag.length; j++) {
-                           /!* if ((tag[j].innerHTML).indexOf('web') !== -1) {
-                                tag[j].parentElement.parentElement.style.marginRight = 'auto';
-                                tag[j].parentElement.parentElement.style.marginLeft = 'auto';
-                               /!* tag[j].parentElement.parentElement.removeAttribute('class', 'col-md-4');*!/
-                            }*!/
-                            if ((tag[j].innerHTML).indexOf('web') === -1) {
-
-                                /!*tag[j].parentElement.style.display = 'none';*!/
-                                tag[j].parentElement.classList.toggle('invisible');
-
+                            if ((tag[j].alt).indexOf('web') !== -1) {
+                                tag[j].parentElement.parentElement.style.visibility = 'visible';
+                            }
+                            if ((tag[j].alt).indexOf('web') === -1) {
+                                tag[j].parentElement.parentElement.style.visibility = 'hidden';
                             }
                         }
                     }
+                    if((this.innerHTML).indexOf('ALL') !== -1){
+                        console.log("jest super")
+                        for (var j = 0; j < tag.length; j++) {
+                            tag[j].parentElement.parentElement.style.visibility = 'visible';
+                        }
 
+                    }
 
                 })
 
-
         }
-*/
 });

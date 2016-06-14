@@ -376,7 +376,7 @@ button{
 }
 
 
-.portfoiloTag{
+.portfolioP{
     color: #676767;
     text-align: center;
 }
@@ -385,6 +385,25 @@ button{
     text-align: center;
     font-weight: 700;
     text-decoration: none;
+}
+
+.invisible{
+    /*display: none; !important;*/
+    visibility: hidden;
+}
+
+.visible{
+    display: inline-block;
+    visibility: visible;
+    text-align: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.leftFloat{
+    float: left;
 }
 /*--------------------------------section11---------------------------------------*/
 /*-------------------------------------form-------------------------------------*/
@@ -410,6 +429,7 @@ button{
 .touch  img{
     margin: 0 10px;
 }
+
 
 
 
