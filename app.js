@@ -122,9 +122,15 @@ document.addEventListener('DOMContentLoaded', function(){
                                 if ((tag[j].alt).indexOf('icon') !== -1) {
 
                                     tag[j].parentElement.parentElement.style.visibility = 'visible';
+                                   /* tag[j].parentElement.parentElement.style.left = 'auto';
+                                    tag[j].parentElement.parentElement.style.right = 'auto';*/
+                                    tag[j].parentElement.parentElement.style.display = 'block';
+
+
                                     }
                                     if ((tag[j].alt).indexOf('icon') === -1) {
-                                        tag[j].parentElement.parentElement.style.visibility = 'hidden';
+                                       /* tag[j].parentElement.parentElement.style.visibility = 'hidden';*/
+                                         tag[j].parentElement.parentElement.style.display = 'none';
                                     }
                             }
                     }
@@ -133,9 +139,11 @@ document.addEventListener('DOMContentLoaded', function(){
                         for (var j = 0; j < tag.length; j++) {
                             if ((tag[j].alt).indexOf('apps') !== -1) {
                                 tag[j].parentElement.parentElement.style.visibility = 'visible';
+                                tag[j].parentElement.parentElement.style.display = 'block';
                             }
                             if ((tag[j].alt).indexOf('apps') === -1) {
-                                tag[j].parentElement.parentElement.style.visibility = 'hidden';
+                                /*tag[j].parentElement.parentElement.style.visibility = 'hidden';*/
+                                tag[j].parentElement.parentElement.style.display = 'none';
                             }
                         }
                     }
@@ -144,6 +152,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         for (var j = 0; j < tag.length; j++) {
                             if ((tag[j].alt).indexOf('web') !== -1) {
                                 tag[j].parentElement.parentElement.style.visibility = 'visible';
+                                tag[j].parentElement.parentElement.style.display = 'block';
                             }
                             if ((tag[j].alt).indexOf('web') === -1) {
                                 tag[j].parentElement.parentElement.style.visibility = 'hidden';
@@ -154,6 +163,7 @@ document.addEventListener('DOMContentLoaded', function(){
                         console.log("jest super")
                         for (var j = 0; j < tag.length; j++) {
                             tag[j].parentElement.parentElement.style.visibility = 'visible';
+                            tag[j].parentElement.parentElement.style.display = 'block';
                         }
 
                     }
