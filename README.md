@@ -1,3 +1,3 @@
-"Bhaskara" is responsive webpage, created using bootstrap, Javascript and jQuery.
-
-Work in progress
+Why this site is so bad ??
+Because this is my first page :)
+I'm working on it.

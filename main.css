@@ -1,180 +1,197 @@
-body{
+body {
     color: white;
 }
 
-.cityview{
-    background: url("Bhagaskara-assets/obrazektoptop.png") no-repeat center fixed;
+.cityview {
+    background: url("img/obrazektoptop.png") no-repeat center fixed;
     background-size: cover;
     -web-kit-background-size: cover;
     width: 100%;
 }
 
-.title{
+.title {
     font-size: 90px;
     color: white;
     padding-bottom: 20px;
     text-align: center;
 }
 
-
-.titleend{
+.titleend {
     color: #9f449b;
 }
 
-.s1{
+.s1 {
     font-size: 48px;
     text-align: center;
 }
 
-
-.s2{
+.s2 {
     font-size: 24px;
     text-align: center;
     padding: 60px;
 }
-.gif{
-    width: 165px ;
+
+.gif {
+    width: 165px;
     height: 181px;
     margin: auto;
     margin-bottom: 20px;
 }
 
-.gif:hover, .gif2:hover, .touch img:hover{
+.gif:hover, .gif2:hover, .touch img:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
 
-.services{
-    background: url("Bhagaskara-assets/3.png");
+.services {
+    background: url("img/3.png");
+}
 
+.serv {
+    background: url("img/icondymek.png");
 }
-.serv{
-    background: url("Bhagaskara-assets/icondymek.png");
 
+.portfolio {
+    background: url("img/4.png");
 }
-.portfolio{
-    background: url("Bhagaskara-assets/4.png");
+
+.about {
+    /* background: url("img/1.png"); */
+    background: url("img/1.png");
 }
-.about{
-   /* background: url("Bhagaskara-assets/1.png"); */
-    background: url("Bhagaskara-assets/1.png");
+
+.team {
+    background: url("img/2.png");
 }
-.team{
-    background: url("Bhagaskara-assets/2.png");
+
+.blog {
+    background: url("img/5.png");
 }
-.blog{
-    background: url("Bhagaskara-assets/5.png");
+
+.contact {
+    background: url("img/6.png");
 }
-.contact{
-    background: url("Bhagaskara-assets/6.png");
-}
-.scroll{
-    background: url("Bhagaskara-assets/scroller.png");
-    width: 86px ;
+
+.scroll {
+    background: url("img/scroller.png");
+    width: 86px;
     height: 93px;
     margin-left: auto;
     margin-right: auto;
 }
-.scroll:hover{
+
+.scroll:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
-.paddingrow{
+
+.paddingrow {
     padding-bottom: 60px;
 }
 
 
 /*-----------------------------------------section2---------------------------------------------------------------------------*/
-.section2{
+
+.section2 {
     padding: 60px;
 }
-.titlemiddle{
+
+.titlemiddle {
     color: #676767;
     font-size: 30px;
 }
 
-a{
+a {
     color: #676767;
     font-size: 16px;
 }
+
+
 /*-----------------------------------------section3---------------------------------------------------------------------------*/
-.section3{
+
+.section3 {
     background-color: #eeeeee;
     padding-top: 200px;
     padding-bottom: 200px;
     color: #676767;
     text-align: center;
 }
-.gif2{
-    width: 172px ;
+
+.gif2 {
+    width: 172px;
     height: 186px;
     margin: auto;
 }
 
-.heart{
-    background: url("Bhagaskara-assets/22.png")
+.heart {
+    background: url("img/22.png")
 }
 
-.crystal{
-    background: url("Bhagaskara-assets/22.png")
+.crystal {
+    background: url("img/22.png")
 }
 
-.cup{
-    background: url("Bhagaskara-assets/33.png")
-}
-.phone{
-    background: url("Bhagaskara-assets/44.png")
+.cup {
+    background: url("img/33.png")
 }
 
-.headerSection3{
+.phone {
+    background: url("img/44.png")
+}
+
+.headerSection3 {
     font-size: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.pSection3{
+
+.pSection3 {
     font-size: 12px;
 }
 
 
 /*----------------------------------------------section4---------------------------------------------*/
 
-.section4{
+.section4 {
     color: #676767;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.titleabout{
+.titleabout {
     font-size: 35px;
     text-align: center;
 }
-.corner{
-    background: url("Bhagaskara-assets/rogdown.png");
+
+.corner {
+    background: url("img/rogdown.png");
     width: 29px;
     height: 29px;
     text-align: left;
-
 }
-.cornerdown{
-    background: url("Bhagaskara-assets/rogd.png");
+
+.cornerdown {
+    background: url("img/rogd.png");
     width: 29px;
     height: 29px;
     text-align: left;
-
 }
-.tv2{
-    /*background: url("Bhagaskara-assets/mockup.png");*/
-   /* width: 653px;
+
+.tv2 {
+    /*background: url("img/mockup.png");*/
+    /* width: 653px;
     height: 415px;*/
     margin-top: 135px;
 }
-.psection4{
+
+.psection4 {
     margin-top: 135px;
     font-size: 15px;
     line-height: 40px;
     margin-bottom: 80px;
 }
-button{
+
+button {
     color: white;
     background-color: #9f449b;
     font-size: 20px;
@@ -184,36 +201,40 @@ button{
     box-shadow: 1px 3px 2px #000000;
 }
 
+
 /*------------------------section5------------------------------------------------*/
 
-.section5{
-    background: url("Bhagaskara-assets/tlo2.png") no-repeat center fixed;
+.section5 {
+    background: url("img/tlo2.png") no-repeat center fixed;
     padding: 200px 0;
     text-align: center;
     font-size: 36px;
 }
 
-.edu{
-    background: url("Bhagaskara-assets/icon.png");
+.edu {
+    background: url("img/icon.png");
 }
-.pad{
+
+.pad {
     padding-top: 10px;
 }
 
+
 /*------------------section 6 -----------------------------*/
-.section6{
+
+.section6 {
     background-color: #ffffff;
     padding: 100px 0;
-
 }
 
-.titleOur{
+.titleOur {
     font-size: 35px;
     text-align: center;
     color: black;
 }
-.slideButton{
-    background: url("Bhagaskara-assets/arrowstrzalki.png");
+
+.slideButton {
+    background: url("img/arrowstrzalki.png");
     width: 135px;
     height: 69px;
     margin: 30px 0;
@@ -221,15 +242,17 @@ button{
     margin-left: auto;
 }
 
-.noborder{
+.noborder {
     border: 0px solid #ddd;
     margin-right: auto;
     margin-left: auto;
 }
+
 .capition2 {
     text-align: center;
 }
-.icon{
+
+.icon {
     width: 48px;
     height: 47px;
     margin-right: auto;
@@ -237,40 +260,46 @@ button{
     display: inline-block;
 }
 
-.iconbreak{
+.iconbreak {
     width: 28px;
     height: 47px;
     margin-right: auto;
     margin-left: auto;
     display: inline-block;
 }
-.facebook{
-    background: url("Bhagaskara-assets/social_icon_fb_small.png");
 
-}
-.googleplus{
-    background: url("Bhagaskara-assets/social_icon2%20google_small.png") no-repeat;
+.facebook {
+    background: url("img/social_icon_fb_small.png");
 }
 
-.capition2 p{
+.googleplus {
+    background: url("img/social_icon2%20google_small.png") no-repeat;
+}
+
+.capition2 p {
     margin-top: 28px;
     margin-bottom: 28px;
 }
 
+
 /*--------------------------SECTION7-------------------------------------*/
-.section7 p{
+
+.section7 p {
     color: black;
     font-weight: bold;
 }
-.widthcontainer{
+
+.widthcontainer {
     width: 100%;
     height: auto;
     padding: 0 0px;
 }
-.progresRow{
+
+.progresRow {
     padding-top: 100px;
 }
-.nopadding{
+
+.nopadding {
     padding-top: 10px;
     padding-bottom: 100px;
 }
@@ -278,15 +307,18 @@ button{
 .progress-bar {
     background-color: #9f449b;
 }
-.progresLeft{
+
+.progresLeft {
     /*margin-left: 100px;*/
     padding-right: 50px;
 }
-.progresRight{
+
+.progresRight {
     /*margin-left: 100px;*/
     padding-left: 50px;
 }
-.section7 p span{
+
+.section7 p span {
     color: #676767;
     font-weight: normal;
     float: right;
@@ -294,69 +326,162 @@ button{
 
 .section7 p {
     font-size: 18px;
-
 }
 
 
 /*-----------------------section9-------------------------------------------------*/
-.section9{
+
+.section9 {
     color: #676767;
     padding-top: 60px;
     min-height: 400px;
     background-color: #eeeeee;
 }
 
-.s9{
+.s9 {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     font-size: 35px;
     font-weight: 500;
-
 }
 
-.s9 p{
+.s9 p {
     font-size: 10px;
     font-weight: normal;
 }
 
+
 /*testz animacji*/
-#topanimation{
+
+#topanimation {
     animation-name: pulse;
     animation-duration: 4s;
     animation-delay: 2s;
 }
-.item{
+
+.item {
     height: 550px;
     background-color: #eeeeee;
-
 }
-.item h3, .item p{
+
+.item h3, .item p {
     color: #676767;
     text-shadow: none;
 }
-.whitestripe{
+
+.whitestripe {
     background-color: white;
     height: 30px;
 }
 
+
 /*-------------------------------------------section10-------------------------------------------*/
 
-.section10{
+.portfolio-list {
+    margin: 2rem 0;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    -webkit-column-width: 33.33333333333333%;
+    -moz-column-width: 33.33333333333333%;
+    column-width: 33.33333333333333%;
+}
+
+.portfolio-img {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.portfolio-img:hover {
+    transform: scale(1.02);
+    overflow: hidden;
+}
+
+.scale-anm {
+    transform: scale(1);
+}
+
+.category-list {
+    padding: 15px 0
+}
+
+
+
+
+.portfolio-img img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.category {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    padding: 10px 10px;
+    margin: 5px;
+    height: auto;
+    border: 2px solid;
+    border-radius: 4px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #555;
+    background-color: white;
+}
+
+.category:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 3px 0px #9F449B;
+-webkit-box-shadow: inset 0px 0px 3px 0px #9F449B;
+-moz-box-shadow: inset 0px 0px 3px 0px #9F449B;
+-o-box-shadow: inset 0px 0px 3px 0px #9F449B;
+    border: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn:focus {
+    outline: none;
+    border-color: var(--darken-2);
+    box-shadow: 0 0 0 3px var(--darken-3);
+}
+
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.section10 {
     padding: 100px 0;
 }
 
-.tags{
+.tags {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     min-height: 1px;
 }
-.tags ul{
+
+.tags ul {
     padding: 50px 0;
     height: 38px;
 }
-.tags li{
+
+.tags li {
     color: black;
     border: 1px solid black;
     border-radius: 5px;
@@ -366,202 +491,178 @@ button{
     height: 30px;
     padding: 3px 10px;
     font-size: 16px;
-
 }
 
-.tags li:hover{
+.tags li:hover {
     background-color: #9f449b;
     border: 1px solid #9f449b;
     color: white;
 }
 
-
-.portfolioP{
+.portfolioP {
     color: #676767;
     text-align: center;
 }
-.portfolio-item h3,.portfolio-item a{
+
+.portfolio-item h3, .portfolio-item a {
     color: black;
     text-align: center;
     font-weight: 700;
     text-decoration: none;
 }
 
-.invisible{
-    /*display: none; !important;*/
+.invisible {
     visibility: hidden;
 }
 
-.visible{
+.visible {
     display: inline-block;
     visibility: visible;
     text-align: center;
-
     margin-right: auto;
     margin-left: auto;
-
 }
 
-.leftFloat{
+.leftFloat {
     float: left;
 }
+
+
 /*--------------------------------section11---------------------------------------*/
+
+
 /*-------------------------------------form-------------------------------------*/
 
-.btn-prim{
+.btn-prim {
     color: white;
     background-color: #9f449b;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.form-group{
+
+.form-group {
     margin-bottom: 30px;
 }
-#exampleInputName, #exampleInputEmail1{
+
+#exampleInputName, #exampleInputEmail1 {
     height: 50px;
 }
-.section11{
+
+.section11 {
     color: black;
 }
+
 .touch {
     margin: 50px 0;
 }
-.touch  img{
+
+.touch img {
     margin: 0 10px;
 }
 
 
-
-
-
-
-
-
 /*----------------------------------------------------@media-------------------------------------------------------------*/
-@media  (min-width: 1201px){
-    .psection4{
+
+@media (min-width: 1201px) {
+    .psection4 {
         margin-bottom: 130px;
     }
 }
 
-@media  (max-width: 1200px){
-    /*.tv{
-        background: url("Bhagaskara-assets/mockuptablet.png");
-        width: 522px;
-        height: 332px;
-        margin-right: auto;
-        margin-left: auto;
-    }*/
-    .psection4{
+@media (max-width: 1200px) {
+    .psection4 {
         margin-bottom: 15px;
-
     }
-    .progresRow, .nopadding, .progresRight{
+    .progresRow, .nopadding, .progresRight {
         margin-right: auto;
         margin-left: auto;
     }
-
-    .section7{
+    .section7 {
         padding: 10%;
     }
-
 }
 
-
-
-@media  (max-width: 992px){
-    .titlemiddle{
+@media (max-width: 992px) {
+    .titlemiddle {
         text-align: center;
     }
-    .psection3{
+    .psection3 {
         margin-bottom: 20px;
-
     }
-    .headerSection3{
+    .headerSection3 {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .section3{
+    .section3 {
         padding-top: 50px;
         padding-bottom: 50px;
-
     }
-    .tv{
-        background: url("Bhagaskara-assets/mockupmini.png");
+    .tv {
+        background: url("img/mockupmini.png");
         width: 326px;
         height: 207px;
         margin-right: auto;
         margin-left: auto;
     }
-    .psection4{
+    .psection4 {
         line-height: 20px;
         margin-bottom: 40px;
         margin-top: 135px;
     }
-    button{
+    button {
         width: 100%;
     }
     .progresLeft, .progresRight {
         /*float: none;*/
         padding-left: 0;
         padding-right: 0;
-
     }
-
-
-    .tags div{
+    .tags div {
         width: 50%;
         margin-bottom: 30px;
-
     }
-
-    .tags li{
+    .tags li {
         height: auto;
         padding: 15px 0;
         width: 100%;
     }
-    .portfolio-item img{
+    .portfolio-item img {
         margin-right: auto;
         margin-left: auto;
     }
     .touch {
         text-align: center;
     }
-    .touch img{
+    .touch img {
         margin: 0 50px;
     }
-
-
 }
-@media  (max-width: 768px){
 
-    .section2{
+@media (max-width: 768px) {
+    .section2 {
         text-align: center;
     }
-    .tv, .psection4{
+    .tv, .psection4 {
         margin-top: 50px;
     }
-
 }
-@media  (max-width: 600px){
-    .title{
+
+@media (max-width: 600px) {
+    .title {
         font-size: 4em;
     }
-    .s1{
+    .s1 {
         font-size: 2em;
     }
-    .s2{
+    .s2 {
         font-size: 1.5em;
         padding: 10%;
     }
-    .section4{
+    .section4 {
         padding-top: 50px;
         padding-bottom: 50px;
-
     }
-    .tags div,
-    .tags li{
+    .tags div, .tags li {
         width: 100%;
     }
-
 }
