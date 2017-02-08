@@ -41,7 +41,6 @@ body {
 .gif:hover, .gif2:hover, .touch img:hover {
     transform: scale(1.02);
     cursor: pointer;
-
 }
 
 .services {
@@ -50,6 +49,9 @@ body {
 
 .serv {
     background: url("img/icondymek.png");
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
 }
 
 .portfolio {
@@ -100,11 +102,13 @@ body {
     padding: 60px 0;
     text-align: center;
 }
-.navbar-toggle span{
-  background-color: #676767;
+
+.navbar-toggle span {
+    background-color: #676767;
 }
+
 .navbar-toggle {
-  border: 1px solid #676767;
+    border: 1px solid #676767;
 }
 
 .titlemiddle {
@@ -217,23 +221,17 @@ btn-bh {
 
 .section5 {
     background: url("img/tlo2.png") no-repeat center fixed;
-  height: 400px;
-
+    height: 400px;
     text-align: center;
     font-size: 36px;
     position: relative;
-
 }
 
 .edu {
-    background: url("img/icon.png");
-}
-
-.pad {
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    background: url(img/icon.png);
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
 }
 
 
@@ -428,9 +426,6 @@ btn-bh {
     padding: 15px 0
 }
 
-
-
-
 .portfolio-img img {
     max-width: 100%;
     width: 100%;
@@ -461,9 +456,9 @@ btn-bh {
 .category:hover {
     cursor: pointer;
     box-shadow: inset 0px 0px 3px 0px #9F449B;
--webkit-box-shadow: inset 0px 0px 3px 0px #9F449B;
--moz-box-shadow: inset 0px 0px 3px 0px #9F449B;
--o-box-shadow: inset 0px 0px 3px 0px #9F449B;
+    -webkit-box-shadow: inset 0px 0px 3px 0px #9F449B;
+    -moz-box-shadow: inset 0px 0px 3px 0px #9F449B;
+    -o-box-shadow: inset 0px 0px 3px 0px #9F449B;
     border: none;
 }
 
@@ -659,12 +654,11 @@ btn-bh {
     .tv, .psection4 {
         margin-top: 50px;
     }
-    .gif{
-
-    float: none!important;
-    background-repeat: no-repeat;
-    margin-left: auto!important;
-    margin-right: auto!important;
+    .gif {
+        float: none!important;
+        background-repeat: no-repeat;
+        margin-left: auto!important;
+        margin-right: auto!important;
     }
 }
 
