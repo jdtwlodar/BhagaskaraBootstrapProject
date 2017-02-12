@@ -3,11 +3,15 @@ body {
 }
 
 .cityview {
-    background: url("img/obrazektoptop.png") no-repeat center fixed;
+    background: url("img/top-bg.png") no-repeat center fixed;
     background-size: cover;
     -web-kit-background-size: cover;
     width: 100%;
+    text-shadow: 2px 0px 1px rgba(150, 150, 150, 0.5);
+    filter: grayscale(50%);
+
 }
+
 
 .title {
     font-size: 90px;
@@ -29,6 +33,7 @@ body {
     font-size: 24px;
     text-align: center;
     padding: 60px;
+    font-weight: 400;
 }
 
 .gif {
@@ -37,14 +42,21 @@ body {
     margin: 20px;
     background-size: cover;
 }
+.gif a{
+  display: block;
+}
 
 .gif:hover, .gif2:hover, .touch img:hover {
     transform: scale(1.02);
     cursor: pointer;
 }
+.center{
+  float: none;
+  margin: auto;
+}
 
 .services {
-    background: url("img/3.png");
+    background: url("img/3.png");filter: saturate(8);
 }
 
 .serv {
@@ -59,7 +71,6 @@ body {
 }
 
 .about {
-    /* background: url("img/1.png"); */
     background: url("img/1.png");
 }
 
