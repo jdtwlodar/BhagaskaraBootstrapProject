@@ -23,7 +23,9 @@ body {
 .titleend {
     color: #9f449b;
 }
-
+.section-title{
+  margin-bottom: 50px;
+}
 .s1 {
     font-size: 48px;
     text-align: center;
@@ -135,7 +137,7 @@ a {
 
 /*-----------------------------------------section3---------------------------------------------------------------------------*/
 
-.section3 {
+#services {
     background-color: #eeeeee;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -165,28 +167,29 @@ a {
     background: url("img/44.png")
 }
 
-.headerSection3 {
+.service_title {
     font-size: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.pSection3 {
+.service_desc {
     font-size: 12px;
 }
 
 
 /*----------------------------------------------section4---------------------------------------------*/
 
-.section4 {
+#aboutUs{
     color: #676767;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 30px;
+
 }
 
 .titleabout {
     font-size: 35px;
     text-align: center;
+    color: black;
 }
 
 .corner {
@@ -201,30 +204,28 @@ a {
     width: 29px;
     height: 29px;
     text-align: left;
+    margin-top: 35px;
+
 }
 
-.tv2 {
-    /*background: url("img/mockup.png");*/
-    /* width: 653px;
-    height: 415px;*/
-    margin-top: 135px;
-}
 
-.psection4 {
-    margin-top: 135px;
+.aboutUs-desc {
     font-size: 15px;
     line-height: 40px;
-    margin-bottom: 80px;
+    color: black;
+    height: 100%;
 }
 
-btn-bh {
+.btn-bh {
     color: white;
     background-color: #9f449b;
     font-size: 20px;
     padding: 20px;
-    width: 50%;
+    width: 70%;
     border-radius: 4%;
     box-shadow: 1px 3px 2px #000000;
+    position: relative;;
+    bottom: -10px;
 }
 
 
@@ -586,16 +587,10 @@ btn-bh {
 
 /*----------------------------------------------------@media-------------------------------------------------------------*/
 
-@media (min-width: 1201px) {
-    .psection4 {
-        margin-bottom: 130px;
-    }
-}
+
 
 @media (max-width: 1200px) {
-    .psection4 {
-        margin-bottom: 15px;
-    }
+
     .progresRow, .nopadding, .progresRight {
         margin-right: auto;
         margin-left: auto;
@@ -609,14 +604,14 @@ btn-bh {
     .titlemiddle {
         text-align: center;
     }
-    .psection3 {
+    .service_desc {
         margin-bottom: 20px;
     }
-    .headerSection3 {
+    .service_title {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .section3 {
+    #services {
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -627,12 +622,8 @@ btn-bh {
         margin-right: auto;
         margin-left: auto;
     }
-    .psection4 {
-        line-height: 20px;
-        margin-bottom: 40px;
-        margin-top: 135px;
-    }
-    btn-bh {
+
+    .btn-bh {
         width: 100%;
     }
     .progresLeft, .progresRight {
@@ -662,7 +653,7 @@ btn-bh {
 }
 
 @media (max-width: 992px) {
-    .tv, .psection4 {
+    .tv {
         margin-top: 50px;
     }
     .gif {
@@ -684,7 +675,7 @@ btn-bh {
         font-size: 1.5em;
         padding: 10%;
     }
-    .section4 {
+    #aboutUs{
         padding-top: 50px;
         padding-bottom: 50px;
     }
