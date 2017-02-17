@@ -229,14 +229,14 @@ a {
 }
 
 
-/*------------------------section5------------------------------------------------*/
+/*------------------------info-section------------------------------------------------*/
 
-.section5 {
-    background: url("img/tlo2.png") no-repeat center fixed;
-    height: 400px;
+.info-section {
+    background: url("img/tlo2.png") no-repeat center center fixed;
+    /*height: 500px;*/
     text-align: center;
     font-size: 36px;
-    position: relative;
+
 }
 
 .edu {
@@ -244,21 +244,24 @@ a {
     left: 50%;
     transform: translateX(-50%);
     position: relative;
+    width: 165px;
+    height: 181px;
+    margin: 20px;
+    background-size: cover;
+}
+.wrapper-info{
+  vertical-align: middle;
+    padding: 250px 0;
 }
 
 
 /*------------------section 6 -----------------------------*/
 
-.section6 {
+.team-section {
     background-color: #ffffff;
     padding: 100px 0;
 }
 
-.titleOur {
-    font-size: 35px;
-    text-align: center;
-    color: black;
-}
 
 .slideButton {
     background: url("img/arrowstrzalki.png");
