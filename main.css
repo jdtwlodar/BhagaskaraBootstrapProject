@@ -256,7 +256,14 @@ a {
 
 
 /*------------------section 6 -----------------------------*/
-
+#carousel-team, #carousel-team .item{
+  background-color: white;
+}
+.carousel-control.left,
+.carousel-control.right{
+  background-image: none;
+  top: 48%;
+}
 .team-section {
     background-color: #ffffff;
     padding: 100px 0;
@@ -273,9 +280,10 @@ a {
 }
 
 .noborder {
-    border: 0px solid #ddd;
-    margin-right: auto;
-    margin-left: auto;
+    border: 0px solid #ddd!important;
+    box-shadow: none;
+    /*margin-right: auto;
+    margin-left: auto;*/
 }
 
 .capition2 {
