@@ -109,10 +109,17 @@ body {
 
 
 /*-----------------------------------------navbar---------------------------------------------------------------------------*/
+.affix {
+    top: 0;
+    width: 100%;
+}
+
 
 .navbar-bh {
+  background-color: white;
     padding: 60px 0;
     text-align: center;
+    z-index: 9999999999999999999999999999999999;
 }
 
 .navbar-toggle span {
