@@ -320,9 +320,9 @@ a {
 }
 
 
-/*--------------------------SECTION7-------------------------------------*/
+/*--------------------------sklills-section-------------------------------------*/
 
-.section7 p {
+.sklills-section p {
     color: black;
     font-weight: bold;
 }
@@ -356,65 +356,63 @@ a {
     padding-left: 50px;
 }
 
-.section7 p span {
+.sklills-section p span {
     color: #676767;
     font-weight: normal;
     float: right;
 }
 
-.section7 p {
+.sklills-section p {
     font-size: 18px;
 }
 
 
-/*-----------------------section9-------------------------------------------------*/
-
-.section9 {
+/*-----------------------summary-------------------------------------------------*/
+.count, .counted{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 35px;
+  font-weight: 500;
+}
+.summary{
     color: #676767;
     padding-top: 60px;
     min-height: 400px;
     background-color: #eeeeee;
 }
-
-.s9 {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+.counterwrapper{
+  text-align: center;
     font-size: 35px;
-    font-weight: 500;
 }
-
-.s9 p {
-    font-size: 10px;
+.counterwrapper p {
+  text-align: center;
+    font-size: 14px;
     font-weight: normal;
 }
 
 
 /*testz animacji*/
 
-#topanimation {
-    animation-name: pulse;
-    animation-duration: 4s;
-    animation-delay: 2s;
-}
-
-.item {
+#carousel-testimonial
+.item{
     height: 550px;
     background-color: #eeeeee;
 }
 
-.item h3, .item p {
+#carousel-testimonial .item h3, .item p {
     color: #676767;
     text-shadow: none;
 }
 
-.whitestripe {
+#carousel-testimonial .whitestripe {
     background-color: white;
     height: 30px;
 }
 
 
-/*-------------------------------------------section10-------------------------------------------*/
+
+/*-------------------------------------------portfolio-section-------------------------------------------*/
 
 .portfolio-list {
     margin: 2rem 0;
@@ -500,7 +498,7 @@ a {
     padding: 0;
 }
 
-.section10 {
+.portfolio-section {
     padding: 100px 0;
 }
 
@@ -563,7 +561,7 @@ a {
 }
 
 
-/*--------------------------------section11---------------------------------------*/
+/*--------------------------------contact-section---------------------------------------*/
 
 
 /*-------------------------------------form-------------------------------------*/
@@ -583,7 +581,7 @@ a {
     height: 50px;
 }
 
-.section11 {
+.contact-section {
     color: black;
 }
 
@@ -606,7 +604,7 @@ a {
         margin-right: auto;
         margin-left: auto;
     }
-    .section7 {
+    .sklills-section {
         padding: 10%;
     }
 }
