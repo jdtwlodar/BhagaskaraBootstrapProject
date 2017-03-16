@@ -88,3 +88,11 @@ $(window).scroll(function() {
         };
     }
 });
+
+// scroller
+
+$(".scroll").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#services").offset().top},
+        'slow');
+});
